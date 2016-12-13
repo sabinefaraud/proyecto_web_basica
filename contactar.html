@@ -1,59 +1,72 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
-	<meta charset="UTF-8">
-	<title>Document</title>
-	<link rel="stylesheet" href="css/style.css">
+  <meta charset="UTF-8">
+  <title>Document</title>
+  <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
-
-
-<!-- HEADER -->
-	<header>
-		<img src="img/logo.png" alt="foto de una jarra de cerveza" class="logo">
-		<h1 class="title">Mis cervezas</h1>
-		<p class="subtitle">Aficiones y locuras de un amante de la cerveza</p>
-		<nav>
-			<ul class="menu">
-				<li class="menuitem">Inicio<a href="index.html" class="menulink"></a></li>
-				<li class="menuitem">cervezas<a href="cervezas.html" class="menulink"></a></li>
-				<li class="menuitem">Contactar<a href="contactar.html" class="menulink"></a></li>
-			</ul>
-		</nav>
-
-
-	</header>
-
-
-
-<!-- ASIDE -->
-	<aside>
-	
-	<div>
-		<h1 class="bannerTitle"></h1>
-		<div class="bannerBody">
-			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo voluptas quis repellendus alias consequatur deserunt animi cupiditate, tempora, maxime voluptatum, ratione nulla odit veritatis iure! Facere at labore officiis, id?</p>
-			<p>Voluptates atque, cumque dolore, dignissimos omnis itaque aliquam ab aut iusto natus, officiis. Placeat facere deleniti numquam facilis hic optio amet neque aperiam velit nulla reprehenderit pariatur ipsam, nesciunt atque.</p>
-		</div>
-	</div>
-	<div>
-		<h1 class="bannerTitle"></h1>
-		<div class="bannerBody">
-			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium laborum natus similique voluptatum? Vitae, pariatur. Ad fugiat, repudiandae deleniti sed, in commodi nobis maiores rerum quaerat quasi voluptas voluptatibus doloremque.</p>
-			<p>Ut unde perspiciatis praesentium fuga laudantium officiis, inventore reprehenderit veniam! Possimus vitae, optio impedit, illo alias perspiciatis tenetur eaque facilis iste laborum sapiente at magnam, aspernatur obcaecati laudantium, excepturi rerum!</p>
-		</div>
-	</div>
-	
-
-	</aside>
-
-
-
-
-<!-- FOOTER -->
-	<footer>
-	<p class="copyright">Sitio web realizado por un amante de la cerveza</p>
-	</footer>
-
+  <!-- HEADER -->
+  <header>
+    <img src="img/logo.png" alt="foto de una jarra de cerveza" class="logo">
+    <h1 class="title">Mis cervezas</h1>
+    <p class="subtitle">Aficiones y locuras de un amante de la cerveza</p>
+    <nav>
+      <ul class="menu">
+        <li class="menuitem">Inicio
+          <a href="index.html" class="menulink"></a>
+        </li>
+        <li class="menuitem">cervezas
+          <a href="cervezas.html" class="menulink"></a>
+        </li>
+        <li class="menuitem">Contactar
+          <a href="contactar.html" class="menulink"></a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+  <!-- ASIDE -->
+  <aside>
+    <div>
+      <h1 class="bannerTitle"></h1>
+      <div class="bannerBody">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo voluptas quis repellendus alias consequatur deserunt animi cupiditate, tempora, maxime voluptatum, ratione nulla odit veritatis iure! Facere at labore officiis, id?</p>
+        <p>Voluptates atque, cumque dolore, dignissimos omnis itaque aliquam ab aut iusto natus, officiis. Placeat facere deleniti numquam facilis hic optio amet neque aperiam velit nulla reprehenderit pariatur ipsam, nesciunt atque.</p>
+      </div>
+    </div>
+    <div>
+      <h1 class="bannerTitle"></h1>
+      <div class="bannerBody">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium laborum natus similique voluptatum? Vitae, pariatur. Ad fugiat, repudiandae deleniti sed, in commodi nobis maiores rerum quaerat quasi voluptas voluptatibus doloremque.</p>
+        <p>Ut unde perspiciatis praesentium fuga laudantium officiis, inventore reprehenderit veniam! Possimus vitae, optio impedit, illo alias perspiciatis tenetur eaque facilis iste laborum sapiente at magnam, aspernatur obcaecati laudantium, excepturi rerum!</p>
+      </div>
+    </div>
+  </aside>
+  <!-- MAIN -->
+  <main>
+    <h1>Contactar</h1>
+    <p>No me interesa conocerte. Si sabes de alguna cerveza que merezca la pena probar, escribe su nombre y una descripción</p>
+    <p>¡Quizá me anime y la ponga en la lista!</p>
+    <form action="contactar.php">
+      <div>
+        <label for="cerveza">Nombre</label>
+        <input type="text" name="cerveza" id="cerveza">
+      </div>
+      <div>
+        <label>Descripción</label>
+        <textarea name="desc" id="desc" cols="30" rows="10"></textarea>
+      </div>
+      <div>
+        <input type="submit" value="Enviar">
+      </div>
+    </form>
+  </main>
+  <!-- FOOTER -->
+  <footer>
+    <p class="copyright">Sitio web realizado por un amante de la cerveza</p>
+  </footer>
 </body>
+
 </html>
